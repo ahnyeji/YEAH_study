@@ -1,5 +1,5 @@
 # Study
-[AlgorithmBook]
-group study using book "Algorithmic Problem Solving Strategies"
-from 7/Feb/2019
-with KJH, HSH
+[AlgorithmBook] </br>
+group study using book "Algorithmic Problem Solving Strategies" </br>
+from 7/Feb/2019</br>
+with KJH, HSH</br>
