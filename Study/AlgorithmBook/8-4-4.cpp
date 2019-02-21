@@ -3,7 +3,7 @@
 #include <string.h>
 #include <algorithm>
 using namespace std;
-// 동적 계획법 ver. 1
+// 동적 계획법 (1) ver.
 int n;
 int cache[100], s[100];
 int lis2(int start){
