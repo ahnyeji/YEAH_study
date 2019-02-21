@@ -21,10 +21,16 @@ int lis2(int start){
 }
 int main(){
   // cache 배열 -1로 초기화
-  memset(cache, -1, sizeof(cache));
   scanf("%d", &n);
   for(int i=0; i<n; i++){
     scanf("%d", &s[i]);
   }
-  printf("%d\n", lis2(0));
+  // 모든 인덱스에서 시작하도록 계산해봐야 함
+  int maxLen=0;
+  for(int begin=0; begin<n; begin++){
+    // 메모리 초기화!!
+    memset(cache, -1, sizeof(cache));
+    maxLen = max(maxLen, lis2(begin));
+  }
+  printf("%d\n", maxLen);
 }
